@@ -1,0 +1,127 @@
+.limitar-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.home-apresentacao {
+    background-color:#13a15a;
+    padding: 20px 0;
+    padding-top: 100px;
+}
+
+.home-apresentacao h1 {
+    margin: 0;
+    text-shadow: 2px 2px 2px goldenrod;
+    color: #fdfbf7;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
+.home-apresentacao span {
+    font-weight: 500;
+    
+}
+
+.home-apresentacao p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+.lista-servicos{
+    display: flex;
+    flex-wrap: column;
+}
+
+.lista-servicos li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.lista-servicos li img {
+    object-fit: contain;
+    margin-right: 10px;
+    width: 40px;
+    height: 35px;
+}
+
+
+.lista-servicos li p{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.img-aparelho {
+    width: 100%;
+    max-width: 700px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.lista-sobre-aparelho{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-sobre-aparelho li {
+    padding: 0 15px;
+    list-style: none;
+    text-align: start;
+    flex: 1;
+}
+
+.home-depoimentos {
+    margin-top: 60px;
+}
+
+.lista-depoimentos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.titulo-sessao>b{
+    color: #13a15a;
+    text-shadow: 2px 2px 2px silver ;
+}
+
+.lista-depoimentos li {
+    list-style: none;
+    max-width: 300px;
+    padding: 10px 20px;
+}
+
+.lista-depoimentos li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.btn-contato {
+    border: 1px solid #13a15a;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color:#13a15a;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.btn-contato:hover {
+    background-color:#0d6e3e;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.1);
+}
